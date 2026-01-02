@@ -1,2 +1,1 @@
-# To-Do-List
-A to do list program.
+# Webpack template
