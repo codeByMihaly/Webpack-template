@@ -5,14 +5,13 @@ import { defineConfig } from "eslint/config";
 export default defineConfig([
   {
     files: ["**/*.{js,mjs,cjs}"],
-    plugins: {
-      js,
+    languageOptions: {
+      globals: globals.browser,
     },
-    extends: ["js/recommended"],
+    extends: [js.configs.recommended],
     rules: {
       "no-unused-vars": "warn",
       "no-undef": "warn",
     },
-    languageOptions: { globals: globals.browser },
   },
 ]);
