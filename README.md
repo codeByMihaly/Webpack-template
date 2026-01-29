@@ -1,8 +1,8 @@
-#  Webpack Template
+# Webpack Template
 
 A minimal and reusable Webpack 5 starter template for small JavaScript projects. Ideal for learning, prototyping, or building Odin Project exercises.
 
-##  Features
+## Features
 
 - Webpack 5 configuration
 - HTML generation via `html-webpack-plugin`
@@ -10,5 +10,3 @@ A minimal and reusable Webpack 5 starter template for small JavaScript projects.
 - Asset handling for images and static files
 - Clean output with automatic `dist/` cleanup
 - GitHub Pages deployment script using `git subtree`
-
-
